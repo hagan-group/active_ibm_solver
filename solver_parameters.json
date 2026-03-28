@@ -1,0 +1,48 @@
+{
+    "DYN_VISCOSITY": 4,
+    "BLK_VISCOSITY": 0,
+    "FLUID_FRICTION": 0,
+    "ACTIVITY": 49,
+    "STRETCH_STIFFNESS": 4000,
+    "BENDING_STIFFNESS": 0,
+    "PINNING_STIFFNESS": 2000,
+
+    "FLOW_ALIGNMENT": 1,
+    "ROT_VISCOSITY": 1,
+    "NEM_ENERGY": 40,
+    "FRANK_CONST": 1,
+    "ANCHORING": 1,
+    "ALIGNMENT": 1,
+    "S_INITIAL": 0.04, 
+    "ACTIVE_IN": 0.0,
+    "ISO": false,
+
+    "X_SIZE": 20,
+    "Y_SIZE": 20, 
+    "MAX_TIME": 2,
+    "SPACE_STEP": 0.25,
+    "TIME_STEP": 0.001,
+    "SKIP": 2,
+    "BATCH": 50000,
+
+    "MEMBRANE": 
+    {
+        "count": 1,
+        "shape": "circle",
+        "radius": 4,
+        "width": 20,
+        "stiff": "all",
+        "slack": "none",
+        "ratio": 0.2,
+        "mode": 16,
+        "off_center": 0
+    },
+
+    "preload": false,
+    "where": "/home/saaransh/Active/data/241108_143559",
+    "which": 4,
+    "when": -1,
+
+    "save": true,
+    "folder": "/home/saaransh/Active/data"
+}
